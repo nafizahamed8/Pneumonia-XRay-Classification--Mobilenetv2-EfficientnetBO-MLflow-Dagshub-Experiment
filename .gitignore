@@ -1,0 +1,25 @@
+
+# Ignore Python's cache files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore all environment files (which contain secrets)
+*.env
+.env
+
+# Ignore sensitive config files
+config.ini
+secrets.json
+*.json
+
+# Ignore temporary data files
+*.csv
+*.pkl
+
+# Ignore the Colab-specific folder
+.config/
+
+print("✅ .gitignore file created.")
